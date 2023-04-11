@@ -3,9 +3,9 @@ from flask_sqlalchemy import SQLAlchemy
 
 app = Flask(__name__)
 
-app.config['SQLALCHEMY_DATABASE_URI'] ='postgresql://postgres:newdata@localhost:5432/alma'
+app.config['SQLALCHEMY_DATABASE_URI'] ='postgresql://XXXX:XXXX@localhost:XXXX/XXXX'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS']=False
-app.config['SECRET_KEY'] = 'asdfghj456'
+app.config['SECRET_KEY'] = 'XXXXXXXXX'
 
 db = SQLAlchemy(app)
 
